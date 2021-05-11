@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulários</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container-sm mt-3">
+			<h1>Entre em contato conosco:</h1>
+			<form>
+				<div class="row">
+					<div class="col">
+						<label for="nome" class="form-label">Nome:</label>	
+						<input type="text" class="form-control" id="nome" placeholder="Digite seu nome:"  required />	
+					</div>
+					<div class="col">
+						<label for="email" class="form-label">E-mail:</label>	
+						<input type="email" class="form-control" id="email" placeholder="Digite seu email:" required/>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<label for="telefone" class="form-label">Telefone:</label>	
+						<input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone:" required/>	
+					</div>
+					<div class="col">
+						<label for="cidade" class="form-label">Cidade:</label>	
+						<input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade:" required/>	
+					</div>
+				</div>
+				
+				<div class="mb-3">
+					<label for="caixadetexto" class="form-label"></label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Digite sua mensagem:"rows="3"></textarea>
+				</div>
+				
+				<div class="row mt-3">
+				<div class="mb-3">
+					<input type="submit" class="btn btn-primary" id="enviar" value="Enviar" />
+					<input type="reset" class="btn btn-danger" id="limpar" value="Limpar" />	
+				</div>	
+			</div>
+			<div class="row mt-4">
+				<div class="col">
+					<h6>TELEFONE</h6>
+					(35) 3221-9744<br/> (35) 99127-1116<br/>
+				</div>
+				
+				<div class="col">
+					<h6>ENDEREÇO</h6>
+					Av. Major Venâncio, 417 sala 02 <br/> Centro CEP: 37004-350 Varginha/MG
+				</div>
+				
+			</div>
+			
+			<div class="row mt-4">
+				<div class="col">
+					<h6>EMAIL DE CONTATO:</h6>
+					Suporte@outlook.com<br/> Plantão@outlook.com<br/>
+				</div>
+				
+				<div class="col">
+					<h6>SUPORTE TÉCNICO:</h6>
+					Skype:  Suporte08, Plantão_Drogaria, financeiroADM
+				</div>
+				
+			</div>
+			
+			<div class="row mt-4">
+				<div class="col">
+					<label for="nome" class="form-label"><h5>Nossa localização:</h5></label>	
+						<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1855.3059188530415!2d-45.43670664465467!3d-21.562027958929175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3db7429fd3eb9c77!2sSortee%20Desenvolvimento%20De%20Sistemas!5e0!3m2!1spt-BR!2sbr!4v1620418461182!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" "allowfullscreen=" "loading="lazy"></iframe></p>
+						<figcaption>Sortee Informatica de Desenvolvimento de Sistemas </figcaption>
+				</div>
+				<div class="col">
+						<label for="email" class="form-label"><h5>Envie seu curriculo</h5></label>	
+							<input class="form-control" type="file" id="formFile">
+					<div class="row mt-3">
+						<div class="mb-3">
+							<input type="submit" class="btn btn-primary" id="enviar" value="Enviar" />
+							<!-- <input type="reset" class="btn btn-danger" id="limpar" value="Merda deixa pra lá" /> -->
+						</div>	
+					</div>
+				</div>					
+			</div>	
+			
+			
+			
+		</form>	
+	</body>
+</html>
